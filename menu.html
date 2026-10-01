@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu & Order | Olive &amp; Ember</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-banner">Demo website for QA testing of section deep links (PRIV-258798). Olive &amp; Ember is a fictional company.</div>
+  <header class="site-header"><div class="wrap"><a class="brand" href="index.html">Olive <span>&amp;</span> Ember</a><nav class="nav"><a href="index.html">Home</a><a href="menu.html" class="active">Menu</a><a href="rewards.html">Rewards</a><a href="privacy.html">Privacy</a></nav></div></header>
+
+  <div class="page-title"><div class="wrap"><h1>Menu &amp; Order</h1><div class="quick-links">Pick your base, protein and toppings.</div></div></div>
+  <section class="section">
+    <div class="cards">
+      <div class="card"><h3>Greens + Grains</h3><p>Supergreens, saffron rice, spicy hummus, pickled onions.</p><span class="price">$12.75</span></div>
+      <div class="card"><h3>Lamb Meatball Bowl</h3><p>Black lentils, roasted eggplant, tzatziki, mint.</p><span class="price">$14.45</span></div>
+      <div class="card"><h3>Kids Pita Plate</h3><p>Grilled chicken, rice, cucumbers, apple juice.</p><span class="price">$7.95</span></div>
+    </div>
+    <h2 style="margin-top:40px">Checkout</h2>
+    <form class="signup" onsubmit="event.preventDefault();alert('Demo only - no order placed.');">
+      <input placeholder="Full name"><input placeholder="Phone number"><input placeholder="Delivery address">
+      <button class="btn" type="submit">Place order</button>
+      <p class="fineprint">We use your name, contact and payment details to complete your order — see <a href="privacy.html#how-we-use-personal-information" id="checkout-how-we-use">How We Use Personal Information</a>. Delivery partners may receive your details as described in <a href="privacy.html#disclosures-of-personal-information" id="checkout-disclosures">Disclosures of Personal Information</a>.</p>
+    </form>
+  </section>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="brand">Olive <span>&amp;</span> Ember</div>
+      <p style="font-size:14px;max-width:320px">Fire-grilled Mediterranean bowls, pitas and plates. (Fictional demo company.)</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu &amp; Order</a>
+      <a href="rewards.html">Rewards</a>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <a href="privacy.html#about-this-policy">Contact Privacy Team</a>
+      <a href="privacy.html#email-and-sms-communications">Email &amp; SMS Preferences</a>
+      <a href="privacy.html#changes-to-this-policy">Policy Updates</a>
+    </div>
+    <div>
+      <h4>Privacy &amp; Legal</h4>
+      <a href="privacy.html" id="ft-privacy">Privacy Policy</a>
+      <a href="privacy.html#state-privacy-rights" id="ft-choices">Your Privacy Choices</a>
+      <a href="privacy.html#state-privacy-rights" id="ft-dnss">Do Not Sell or Share My Personal Information</a>
+      <a href="privacy.html#tracking-technologies" id="ft-cookies">Cookie &amp; Tracking Policy</a>
+      <a href="privacy.html#loyalty-rewards-program" id="ft-rewards">Notice of Financial Incentive</a>
+      <a href="privacy.html#childrens-personal-information" id="ft-children">Children's Privacy</a>
+    </div>
+  </div>
+  <div class="legal"><span>© 2026 Olive &amp; Ember Group, Inc. (fictional)</span><span>Demo site for PRIV-258798 QA — not a real business</span></div>
+</footer>
+
+</body>
+</html>

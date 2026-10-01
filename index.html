@@ -2,11 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Privacy Notice — PRIV-258798 test</title>
-  <!-- Root of the site now opens the working section-anchor test page -->
-  <meta http-equiv="refresh" content="0; url=privacy-anchors.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fire-grilled Mediterranean | Olive &amp; Ember</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family:-apple-system,Segoe UI,sans-serif;padding:24px">
-  <p>Redirecting to the <a href="privacy-anchors.html">privacy policy test page</a>…</p>
+<body>
+  <div class="demo-banner">Demo website for QA testing of section deep links (PRIV-258798). Olive &amp; Ember is a fictional company.</div>
+  <header class="site-header"><div class="wrap"><a class="brand" href="index.html">Olive <span>&amp;</span> Ember</a><nav class="nav"><a href="index.html" class="active">Home</a><a href="menu.html">Menu</a><a href="rewards.html">Rewards</a><a href="privacy.html">Privacy</a></nav></div></header>
+
+  <section class="hero"><div class="wrap">
+    <h1>Fire-grilled. Fresh. Yours.</h1>
+    <p>Build your bowl with charred harissa chicken, crispy falafel, roasted vegetables and our house-made dips. Order ahead and earn rewards on every visit.</p>
+    <a class="btn" href="menu.html">Order now</a>
+  </div></section>
+  <section class="section">
+    <h2>Fan favourites</h2>
+    <div class="cards">
+      <div class="card"><h3>Harissa Honey Chicken Bowl</h3><p>Saffron rice, roasted corn, pickled onions, garlic dressing.</p><span class="price">$13.45</span></div>
+      <div class="card"><h3>Crispy Falafel Pita</h3><p>Tzatziki, cabbage slaw, tomato and cucumber, hot harissa.</p><span class="price">$11.95</span></div>
+      <div class="card"><h3>Grilled Steak Plate</h3><p>Lentil tabbouleh, hummus, feta, kalamata olives.</p><span class="price">$15.25</span></div>
+    </div>
+  </section>
+  <section class="section" style="padding-top:0">
+    <div class="card"><h3>Join Olive &amp; Ember Rewards</h3><p>Earn points on every order and get a birthday treat. <a href="rewards.html">Learn more</a> · See how we use your information in our <a href="privacy.html#loyalty-rewards-program" id="home-rewards-notice">Notice of Financial Incentive</a>.</p></div>
+  </section>
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="brand">Olive <span>&amp;</span> Ember</div>
+      <p style="font-size:14px;max-width:320px">Fire-grilled Mediterranean bowls, pitas and plates. (Fictional demo company.)</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu &amp; Order</a>
+      <a href="rewards.html">Rewards</a>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <a href="privacy.html#about-this-policy">Contact Privacy Team</a>
+      <a href="privacy.html#email-and-sms-communications">Email &amp; SMS Preferences</a>
+      <a href="privacy.html#changes-to-this-policy">Policy Updates</a>
+    </div>
+    <div>
+      <h4>Privacy &amp; Legal</h4>
+      <a href="privacy.html" id="ft-privacy">Privacy Policy</a>
+      <a href="privacy.html#state-privacy-rights" id="ft-choices">Your Privacy Choices</a>
+      <a href="privacy.html#state-privacy-rights" id="ft-dnss">Do Not Sell or Share My Personal Information</a>
+      <a href="privacy.html#tracking-technologies" id="ft-cookies">Cookie &amp; Tracking Policy</a>
+      <a href="privacy.html#loyalty-rewards-program" id="ft-rewards">Notice of Financial Incentive</a>
+      <a href="privacy.html#childrens-personal-information" id="ft-children">Children's Privacy</a>
+    </div>
+  </div>
+  <div class="legal"><span>© 2026 Olive &amp; Ember Group, Inc. (fictional)</span><span>Demo site for PRIV-258798 QA — not a real business</span></div>
+</footer>
+
+  <div class="cookie-bar" id="cookie-bar">
+    <span>We use cookies and similar technologies for analytics and targeted advertising. <a href="privacy.html#tracking-technologies" id="cookie-learn-more">Learn more</a> · <a href="privacy.html#state-privacy-rights" id="cookie-dnss">Do Not Sell or Share</a></span>
+    <button class="btn" onclick="document.getElementById('cookie-bar').hidden=true">OK</button>
+  </div>
 </body>
 </html>
